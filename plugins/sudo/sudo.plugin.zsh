@@ -18,4 +18,4 @@ sudo-command-line() {
 }
 zle -N sudo-command-line
 # Defined shortcut keys: [Esc] [Esc]
-bindkey "\e\e" sudo-command-line
+bindkey "^_" sudo-command-line
